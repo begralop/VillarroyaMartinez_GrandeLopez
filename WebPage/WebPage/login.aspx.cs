@@ -23,17 +23,23 @@ namespace WebPage
             String userName = TextBox1.Text;
             String password = TextBox2.Text;
 
+            System.Diagnostics.Debug.WriteLine("Antes de peticion");
             var response = service.login(userName, password);
 
+            
             bool responseState = (bool)response.ElementAt(0);
+
+            System.Diagnostics.Debug.WriteLine("Antes de if" + responseState);
             string userType = (string)response.ElementAt(1);
 
+            System.Diagnostics.Debug.WriteLine("Antes de if");
             if (responseState)
             {
+                System.Diagnostics.Debug.WriteLine("Despues de if");
                 FormsAuthentication.SetAuthCookie(userName, true);
                 if (userType == "student")
                 {
-                    Response.Redirect("student/profile.aspx");
+                    Response.Redirect("users/profile.aspx");
                 }
                 else
                 {

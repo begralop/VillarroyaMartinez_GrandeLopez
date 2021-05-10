@@ -14,9 +14,9 @@ namespace WebPage.admin
         protected void Button1_Click(object sender, EventArgs e)
         {
             string title = NameTextbox.Text;
-            int numberReserve = Convert.ToInt32(idTextBox.Text);
+            int idReserve = Convert.ToInt32(idTextBox.Text);
 
-            service.createSubject(title,numberReserve);
+            service.createSubject(title,idReserve);
             Response.Redirect("/admin/subjects.aspx");
         }
     }

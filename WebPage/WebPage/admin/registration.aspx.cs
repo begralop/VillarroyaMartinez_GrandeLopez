@@ -14,9 +14,9 @@ namespace WebPage.admin
         {
             if (!IsPostBack)
             {
-                string reserve = Request.QueryString["reserve"];
+                string subject = Request.QueryString["subject"];
 
-                if (reserve != null)
+                if (subject != null)
                 {
                     string[][] users = service.getUsers();
                     for (int i = 0; i < users.Count(); i++)
@@ -26,14 +26,14 @@ namespace WebPage.admin
                 }
                 else
                 {
-                    Response.Redirect("/admin/reserves.aspx");
+                    Response.Redirect("/admin/subjects.aspx");
                 }
             }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            service.insertStudent(DropDownList1.SelectedItem.Text, Request.QueryString["reserve"]);
+            service.insertStudent(DropDownList1.SelectedItem.Text, Request.QueryString["subject"]);
         }
     }
 }

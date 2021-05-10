@@ -1696,8 +1696,8 @@
     <Content Include="admin\logout.aspx" />
     <Content Include="admin\newuser.aspx" />
     <Content Include="admin\registration.aspx" />
-    <Content Include="admin\reserves.aspx" />
-    <Content Include="admin\updatereserve.aspx" />
+    <Content Include="admin\subjects.aspx" />
+    <Content Include="admin\updatesubject.aspx" />
     <Content Include="admin\updateuser.aspx" />
     <Content Include="admin\users.aspx" />
     <Content Include="masterPage.Master" />
@@ -1788,8 +1788,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="student\logout.aspx" />
-    <Content Include="student\profile.aspx" />
+    <Content Include="users\logout.aspx" />
+    <Content Include="users\profile.aspx" />
     <Content Include="Web References\localhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -1858,19 +1858,19 @@
     <Compile Include="admin\registration.aspx.designer.cs">
       <DependentUpon>registration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\reserves.aspx.cs">
-      <DependentUpon>reserves.aspx</DependentUpon>
+    <Compile Include="admin\subjects.aspx.cs">
+      <DependentUpon>subjects.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\reserves.aspx.designer.cs">
-      <DependentUpon>reserves.aspx</DependentUpon>
+    <Compile Include="admin\subjects.aspx.designer.cs">
+      <DependentUpon>subjects.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\updatereserve.aspx.cs">
-      <DependentUpon>updatereserve.aspx</DependentUpon>
+    <Compile Include="admin\updatesubject.aspx.cs">
+      <DependentUpon>updatesubject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\updatereserve.aspx.designer.cs">
-      <DependentUpon>updatereserve.aspx</DependentUpon>
+    <Compile Include="admin\updatesubject.aspx.designer.cs">
+      <DependentUpon>updatesubject.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\updateuser.aspx.cs">
       <DependentUpon>updateuser.aspx</DependentUpon>
@@ -1899,18 +1899,18 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="student\logout.aspx.cs">
+    <Compile Include="users\logout.aspx.cs">
       <DependentUpon>logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="student\logout.aspx.designer.cs">
+    <Compile Include="users\logout.aspx.designer.cs">
       <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="student\profile.aspx.cs">
+    <Compile Include="users\profile.aspx.cs">
       <DependentUpon>profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="student\profile.aspx.designer.cs">
+    <Compile Include="users\profile.aspx.designer.cs">
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web References\localhost\Reference.cs">
@@ -1922,7 +1922,7 @@
   <ItemGroup>
     <Content Include="admin\Web.config" />
     <None Include="packages.config" />
-    <Content Include="student\Web.config" />
+    <Content Include="users\Web.config" />
     <None Include="Web References\localhost\WebService.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

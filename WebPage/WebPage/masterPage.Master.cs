@@ -34,7 +34,7 @@ namespace WebPage
                 HyperLink3.Attributes.Add("class", "nav-link active");
             }
 
-            if (Request.Path.EndsWith("subjects.aspx") | Request.Path.EndsWith("newreserve.aspx") | Request.Path.EndsWith("updatesubject.aspx") | Request.Path.EndsWith("registration.aspx"))
+            if (Request.Path.EndsWith("subjects.aspx") | Request.Path.EndsWith("newsubject.aspx") | Request.Path.EndsWith("updatesubject.aspx") | Request.Path.EndsWith("registration.aspx"))
             {
 
                 HyperLink4.Attributes.Add("class", "nav-link active");

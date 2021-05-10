@@ -40,7 +40,7 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br/><br/>
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label><br/>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br /><br/>
-            <asp:Button ID="Button1" runat="server" Text="Register New User" OnClick="Button1_Click" /><br/><br/>
+            <asp:Button ID="Button1" runat="server" Text="Register New Reserve" OnClick="Button1_Click" /><br/><br/>
         </div>
     </form>
 </body>

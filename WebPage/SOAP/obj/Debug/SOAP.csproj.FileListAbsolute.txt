@@ -1,0 +1,389 @@
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\SOAP.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\Joan\Desktop\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joan\Desktop\WebPage\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
+C:\Users\Joan\Desktop\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\Joan\Desktop\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\Joan\Desktop\WebPage\SOAP\obj\Debug\SOAP.pdb
+C:\Users\Joan\Desktop\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\SOAP.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\Rosa\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.pdb
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\SOAP.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\Joan\Desktop\WebPage\WebPage\SOAP\obj\Debug\SOAP.pdb
+C:\Users\maria\Desktop\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\SOAP.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\maria\Desktop\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\maria\Desktop\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\maria\Desktop\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\maria\Desktop\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\maria\Desktop\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\maria\Desktop\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maria\Desktop\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\maria\Desktop\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\maria\Desktop\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\maria\Desktop\WebPage\SOAP\obj\Debug\SOAP.pdb
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\SOAP.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\LVillarroya Martinez\Desktop\AlvarezNistal_SotoPerez\WebPage\SOAP\obj\Debug\SOAP.pdb
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\SOAP.dll.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\SOAP.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\SOAP.pdb
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csc.exe
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csc.exe.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csc.rsp
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csi.exe
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csi.exe.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\csi.rsp
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.AppContext.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Console.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\vbc.exe
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\vbc.exe.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\vbc.rsp
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\EntityFramework.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\System.Data.SQLite.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\System.Data.SQLite.EF6.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\System.Data.SQLite.Linq.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\EntityFramework.xml
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\System.Data.SQLite.xml
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\System.Data.SQLite.dll.config
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\obj\Debug\SOAP.csproj.CopyComplete
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\obj\Debug\SOAP.dll
+C:\Users\Marselet\Desktop\VillarroyaMartinez_GrandeLopez\WebPage\SOAP\obj\Debug\SOAP.pdb
