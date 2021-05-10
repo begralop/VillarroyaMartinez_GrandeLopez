@@ -58,14 +58,7 @@ namespace SOAP
            
             
         }
-        [WebMethod]
-        public ArrayList logiin(string userName, string pass)
-        {
-            ArrayList data = new ArrayList();
-            data.Add(true);
-            data.Add("client");
-            return data;
-        }
+
         [WebMethod]
         public ArrayList getUserData(string userName)
         {
@@ -131,7 +124,7 @@ namespace SOAP
             {
                 long id = (long)dt.Rows[0][0];
 
-                query = "UPDATE 'personal-info' SET name = '" + name + "', username = '" + username + "', password = '" + password +  "' WHERE id = " + id + "; ";
+                query = "UPDATE 'personal-info' SET name = '" + name + "', username = '" + username + "', password = '" + password + "' WHERE id = " + id + "; ";
                 Console.WriteLine(query);
 
                 conn.Open();
@@ -159,6 +152,51 @@ namespace SOAP
             SQLiteDataAdapter da = new SQLiteDataAdapter();
             da.DeleteCommand = comm;
             da.DeleteCommand.ExecuteNonQuery();
+        }
+
+        [WebMethod]
+        public void createReserve(string user, string roomname, int idCard, string date)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "INSERT INTO reserve (user, roomname, idCard, date) VALUES('" + user + "','" + roomname + "','" + idCard + "','" + date + "'); ";
+            Console.WriteLine(query);
+
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+
+            SQLiteDataAdapter da = new SQLiteDataAdapter();
+            da.InsertCommand = comm;
+            da.InsertCommand.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        [WebMethod]
+        public ArrayList getUserReserves(string username)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "SELECT roomname,user,date FROM reserve WHERE user = '" + username + "';";
+            Console.WriteLine(query);
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+            SQLiteDataReader reader = comm.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+            conn.Close();
+            ArrayList data = new ArrayList();
+
+            if (dt.Rows.Count != 0)
+            {
+                for (int i = 0; i < dt.Rows[0].ItemArray.Count(); i++)
+                {
+                    data.Add(dt.Rows[0][i]);
+                }
+                return data;
+            }
+
+            return data;
         }
     }
 }
