@@ -47,6 +47,10 @@ header.masthead h1 {
     }
 }
 
+header.containerImg {
+    background-image: url(/landing_image.jpg)
+}
+
 .showcase .showcase-text {
     padding: 3rem
 }

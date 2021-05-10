@@ -30,15 +30,48 @@
     <link href="assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
     <script src="./assets/plugins/charts-c3/plugin.js"></script>
     <script src="./assets/plugins/input-mask/plugin.js"></script>
+     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="assets/css/landing-page.min.css" rel="stylesheet">
   </head>
+
+     <!-- HEADER -->
+
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <img class="navbar-brand" src="luvehotellogo.png" href="index.aspx" alt="" width="110px" href="#">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Our services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+        <a class="btn btn-danger" href="login.aspx">Sign In</a>
+        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
+
+</nav>
+
+
   <body class="">
     <div class="page">
-      <div class="page-single">
-        <div class="container">
+      <div class="page-single"  style="margin: 0px 0px 16px 0px">
+        <div class="container" >
           <div class="row">
-            <div class="col col-login mx-auto">
-              <div class="text-center mb-6">
-                <img src="luvehotellogo.png" class="h-6" alt="">
+            <div class="col col-login mx-auto" >
+              <div class="text-center mb-6 " style="margin: 130px 0px 8px 0px">
+                <img src="user-logo.png"  width="110px" class="h-6"  alt="">
               </div>
               <form class="card" action="" method="post">
                 <div class="card-body p-6">
@@ -54,16 +87,39 @@
                     </label>
 					<asp:TextBox type="password" class="form-control" ID="TextBox2" runat="server" placeholder="Password"></asp:TextBox>
                   </div>
-                  <div class="form-footer">
+                  <div class="form-footer" >
 					<asp:Button class="btn btn-primary btn-block" ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click" /><br /><br />
+                   </div>
 					</form>
                   </div>
                 </div>
-              </form>
             </div>
           </div>
         </div>
+
+      <!-- Footer --> 
+
+  <footer class="footer bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>      
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Hotel Luve 2021. All Rights Reserved.</p>
+        </div>
       </div>
     </div>
+  </footer>
   </body>
 </html>

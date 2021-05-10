@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebPage
+namespace masterpage
 {
 
 
-    public partial class WebForm1
+    public partial class home
     {
     }
 }
