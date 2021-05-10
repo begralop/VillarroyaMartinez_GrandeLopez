@@ -24,7 +24,7 @@ namespace WebPage.admin
         protected global::System.Web.UI.WebControls.TextBox NameTextbox;
 
         /// <summary>
-        /// Control CreditsTextBox.
+        /// Control idTextBox.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
