@@ -37,7 +37,7 @@ namespace WebPage
             {
                 System.Diagnostics.Debug.WriteLine("Despues de if");
                 FormsAuthentication.SetAuthCookie(userName, true);
-                if (userType == "student")
+                if (userType == "client")
                 {
                     Response.Redirect("users/profile.aspx");
                 }
