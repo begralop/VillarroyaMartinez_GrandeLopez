@@ -41,12 +41,12 @@ namespace WebPage
                 if (userType == "client")
                 {
                     TextBox1.Text = response.ElementAt(0).ToString()+", "+ response.ElementAt(1).ToString();
-                     Response.Redirect("~/users/profile.aspx");
+                     //Response.Redirect("profile.aspx");
                 }
                 else
                 {
                     TextBox1.Text = response.ElementAt(0).ToString() + ", " + response.ElementAt(1).ToString();
-                     Response.Redirect("dashboard.aspx");
+                    // Response.Redirect("dashboard.aspx");
                    // Response.Redirect("~/Login.aspx?ReturnPath=" + Server.UrlEncode(Request.Url.AbsoluteUri));
                 }
             }

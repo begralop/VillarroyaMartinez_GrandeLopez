@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dashboard.aspx" />
+    <Content Include="edit_reserve.aspx" />
     <Content Include="newreserve.aspx" />
     <Content Include="assets\css\dashboard.css" />
     <Content Include="assets\css\dashboard.rtl.css" />
@@ -1691,7 +1692,6 @@
     <Content Include="assets\vendor\simple-line-icons\css\simple-line-icons.css" />
     <Content Include="assets\vendor\simple-line-icons\fonts\Simple-Line-Icons.svg" />
     <Content Include="client.aspx" />
-    <Content Include="CreateUser.aspx" />
     <Content Include="Global.asax" />
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
@@ -1789,7 +1789,7 @@
     </None>
     <Content Include="recepcionist.aspx" />
     <Content Include="users\logout.aspx" />
-    <Content Include="users\profile.aspx" />
+    <Content Include="profile.aspx" />
     <Content Include="Web References\localhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -1806,6 +1806,13 @@
     <Compile Include="dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edit_reserve.aspx.cs">
+      <DependentUpon>edit_reserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit_reserve.aspx.designer.cs">
+      <DependentUpon>edit_reserve.aspx</DependentUpon>
+    </Compile>
     <Compile Include="newreserve.aspx.cs">
       <DependentUpon>newreserve.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1819,13 +1826,6 @@
     </Compile>
     <Compile Include="client.aspx.designer.cs">
       <DependentUpon>client.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CreateUser.aspx.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CreateUser.aspx.designer.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1906,11 +1906,11 @@
     <Compile Include="users\logout.aspx.designer.cs">
       <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="users\profile.aspx.cs">
+    <Compile Include="profile.aspx.cs">
       <DependentUpon>profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="users\profile.aspx.designer.cs">
+    <Compile Include="profile.aspx.designer.cs">
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web References\localhost\Reference.cs">

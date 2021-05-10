@@ -11,7 +11,7 @@ namespace WebPage
 {
 
 
-    public partial class newreserve
+    public partial class profile
     {
     }
 }
