@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="loginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getUserData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserDataResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="editUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="editUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubjectResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSubjects">
+        <s:complexType />
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getSubjectsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSubjectsResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="credits" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createSubjectResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="editSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name2" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="credits" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="editSubjectResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteSubjectResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUsers">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUsersResult" type="tns:ArrayOfArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertStudent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertStudentResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getStudentSubjects">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentSubjectsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getStudentSubjectsResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfAnyType" nillable="true" type="tns:ArrayOfAnyType" />
+      <s:element name="ArrayOfArrayOfString" nillable="true" type="tns:ArrayOfArrayOfString" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="loginSoapIn">
+    <wsdl:part name="parameters" element="tns:login" />
+  </wsdl:message>
+  <wsdl:message name="loginSoapOut">
+    <wsdl:part name="parameters" element="tns:loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserData" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="createUserSoapIn">
+    <wsdl:part name="parameters" element="tns:createUser" />
+  </wsdl:message>
+  <wsdl:message name="createUserSoapOut">
+    <wsdl:part name="parameters" element="tns:createUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="editUserSoapIn">
+    <wsdl:part name="parameters" element="tns:editUser" />
+  </wsdl:message>
+  <wsdl:message name="editUserSoapOut">
+    <wsdl:part name="parameters" element="tns:editUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteUser" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:getSubject" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:getSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectsSoapIn">
+    <wsdl:part name="parameters" element="tns:getSubjects" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectsSoapOut">
+    <wsdl:part name="parameters" element="tns:getSubjectsResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:createSubject" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:createSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="editSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:editSubject" />
+  </wsdl:message>
+  <wsdl:message name="editSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:editSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteSubject" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:getUsers" />
+  </wsdl:message>
+  <wsdl:message name="getUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:getUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentSoapIn">
+    <wsdl:part name="parameters" element="tns:insertStudent" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentSoapOut">
+    <wsdl:part name="parameters" element="tns:insertStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStudentSubjectsSoapIn">
+    <wsdl:part name="parameters" element="tns:getStudentSubjects" />
+  </wsdl:message>
+  <wsdl:message name="getStudentSubjectsSoapOut">
+    <wsdl:part name="parameters" element="tns:getStudentSubjectsResponse" />
+  </wsdl:message>
+  <wsdl:message name="loginHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="loginHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="createUserHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="surname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="createUserHttpGetOut" />
+  <wsdl:message name="editUserHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="surname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="editUserHttpGetOut" />
+  <wsdl:message name="deleteUserHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserHttpGetOut" />
+  <wsdl:message name="getSubjectHttpGetIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectsHttpGetIn" />
+  <wsdl:message name="getSubjectsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectHttpGetIn">
+    <wsdl:part name="title" type="s:string" />
+    <wsdl:part name="credits" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectHttpGetOut" />
+  <wsdl:message name="editSubjectHttpGetIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="name2" type="s:string" />
+    <wsdl:part name="credits" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="editSubjectHttpGetOut" />
+  <wsdl:message name="deleteSubjectHttpGetIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectHttpGetOut" />
+  <wsdl:message name="getUsersHttpGetIn" />
+  <wsdl:message name="getUsersHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="subject" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentHttpGetOut" />
+  <wsdl:message name="getStudentSubjectsHttpGetIn">
+    <wsdl:part name="username" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentSubjectsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="loginHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="loginHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="createUserHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="surname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="createUserHttpPostOut" />
+  <wsdl:message name="editUserHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="surname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="editUserHttpPostOut" />
+  <wsdl:message name="deleteUserHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserHttpPostOut" />
+  <wsdl:message name="getSubjectHttpPostIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:message name="getSubjectsHttpPostIn" />
+  <wsdl:message name="getSubjectsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectHttpPostIn">
+    <wsdl:part name="title" type="s:string" />
+    <wsdl:part name="credits" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="createSubjectHttpPostOut" />
+  <wsdl:message name="editSubjectHttpPostIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="name2" type="s:string" />
+    <wsdl:part name="credits" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="editSubjectHttpPostOut" />
+  <wsdl:message name="deleteSubjectHttpPostIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubjectHttpPostOut" />
+  <wsdl:message name="getUsersHttpPostIn" />
+  <wsdl:message name="getUsersHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="subject" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="insertStudentHttpPostOut" />
+  <wsdl:message name="getStudentSubjectsHttpPostIn">
+    <wsdl:part name="username" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getStudentSubjectsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAnyType" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginSoapIn" />
+      <wsdl:output message="tns:loginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <wsdl:input message="tns:getUserDataSoapIn" />
+      <wsdl:output message="tns:getUserDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <wsdl:input message="tns:createUserSoapIn" />
+      <wsdl:output message="tns:createUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <wsdl:input message="tns:editUserSoapIn" />
+      <wsdl:output message="tns:editUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <wsdl:input message="tns:deleteUserSoapIn" />
+      <wsdl:output message="tns:deleteUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <wsdl:input message="tns:getSubjectSoapIn" />
+      <wsdl:output message="tns:getSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <wsdl:input message="tns:getSubjectsSoapIn" />
+      <wsdl:output message="tns:getSubjectsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <wsdl:input message="tns:createSubjectSoapIn" />
+      <wsdl:output message="tns:createSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <wsdl:input message="tns:editSubjectSoapIn" />
+      <wsdl:output message="tns:editSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <wsdl:input message="tns:deleteSubjectSoapIn" />
+      <wsdl:output message="tns:deleteSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdl:input message="tns:getUsersSoapIn" />
+      <wsdl:output message="tns:getUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <wsdl:input message="tns:insertStudentSoapIn" />
+      <wsdl:output message="tns:insertStudentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <wsdl:input message="tns:getStudentSubjectsSoapIn" />
+      <wsdl:output message="tns:getStudentSubjectsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebServiceHttpGet">
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginHttpGetIn" />
+      <wsdl:output message="tns:loginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <wsdl:input message="tns:getUserDataHttpGetIn" />
+      <wsdl:output message="tns:getUserDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <wsdl:input message="tns:createUserHttpGetIn" />
+      <wsdl:output message="tns:createUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <wsdl:input message="tns:editUserHttpGetIn" />
+      <wsdl:output message="tns:editUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <wsdl:input message="tns:deleteUserHttpGetIn" />
+      <wsdl:output message="tns:deleteUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <wsdl:input message="tns:getSubjectHttpGetIn" />
+      <wsdl:output message="tns:getSubjectHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <wsdl:input message="tns:getSubjectsHttpGetIn" />
+      <wsdl:output message="tns:getSubjectsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <wsdl:input message="tns:createSubjectHttpGetIn" />
+      <wsdl:output message="tns:createSubjectHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <wsdl:input message="tns:editSubjectHttpGetIn" />
+      <wsdl:output message="tns:editSubjectHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <wsdl:input message="tns:deleteSubjectHttpGetIn" />
+      <wsdl:output message="tns:deleteSubjectHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdl:input message="tns:getUsersHttpGetIn" />
+      <wsdl:output message="tns:getUsersHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <wsdl:input message="tns:insertStudentHttpGetIn" />
+      <wsdl:output message="tns:insertStudentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <wsdl:input message="tns:getStudentSubjectsHttpGetIn" />
+      <wsdl:output message="tns:getStudentSubjectsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebServiceHttpPost">
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginHttpPostIn" />
+      <wsdl:output message="tns:loginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <wsdl:input message="tns:getUserDataHttpPostIn" />
+      <wsdl:output message="tns:getUserDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <wsdl:input message="tns:createUserHttpPostIn" />
+      <wsdl:output message="tns:createUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <wsdl:input message="tns:editUserHttpPostIn" />
+      <wsdl:output message="tns:editUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <wsdl:input message="tns:deleteUserHttpPostIn" />
+      <wsdl:output message="tns:deleteUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <wsdl:input message="tns:getSubjectHttpPostIn" />
+      <wsdl:output message="tns:getSubjectHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <wsdl:input message="tns:getSubjectsHttpPostIn" />
+      <wsdl:output message="tns:getSubjectsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <wsdl:input message="tns:createSubjectHttpPostIn" />
+      <wsdl:output message="tns:createSubjectHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <wsdl:input message="tns:editSubjectHttpPostIn" />
+      <wsdl:output message="tns:editSubjectHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <wsdl:input message="tns:deleteSubjectHttpPostIn" />
+      <wsdl:output message="tns:deleteSubjectHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdl:input message="tns:getUsersHttpPostIn" />
+      <wsdl:output message="tns:getUsersHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <wsdl:input message="tns:insertStudentHttpPostIn" />
+      <wsdl:output message="tns:insertStudentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <wsdl:input message="tns:getStudentSubjectsHttpPostIn" />
+      <wsdl:output message="tns:getStudentSubjectsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <soap:operation soapAction="http://tempuri.org/getUserData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <soap:operation soapAction="http://tempuri.org/createUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <soap:operation soapAction="http://tempuri.org/editUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <soap:operation soapAction="http://tempuri.org/deleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <soap:operation soapAction="http://tempuri.org/getSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <soap:operation soapAction="http://tempuri.org/getSubjects" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <soap:operation soapAction="http://tempuri.org/createSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <soap:operation soapAction="http://tempuri.org/editSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <soap:operation soapAction="http://tempuri.org/deleteSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <soap:operation soapAction="http://tempuri.org/getUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <soap:operation soapAction="http://tempuri.org/insertStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <soap:operation soapAction="http://tempuri.org/getStudentSubjects" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="login">
+      <soap12:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <soap12:operation soapAction="http://tempuri.org/getUserData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <soap12:operation soapAction="http://tempuri.org/createUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <soap12:operation soapAction="http://tempuri.org/editUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <soap12:operation soapAction="http://tempuri.org/deleteUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <soap12:operation soapAction="http://tempuri.org/getSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <soap12:operation soapAction="http://tempuri.org/getSubjects" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <soap12:operation soapAction="http://tempuri.org/createSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <soap12:operation soapAction="http://tempuri.org/editSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <soap12:operation soapAction="http://tempuri.org/deleteSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <soap12:operation soapAction="http://tempuri.org/getUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <soap12:operation soapAction="http://tempuri.org/insertStudent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <soap12:operation soapAction="http://tempuri.org/getStudentSubjects" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceHttpGet" type="tns:WebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="login">
+      <http:operation location="/login" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <http:operation location="/getUserData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <http:operation location="/createUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <http:operation location="/editUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <http:operation location="/deleteUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <http:operation location="/getSubject" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <http:operation location="/getSubjects" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <http:operation location="/createSubject" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <http:operation location="/editSubject" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <http:operation location="/deleteSubject" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <http:operation location="/getUsers" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <http:operation location="/insertStudent" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <http:operation location="/getStudentSubjects" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceHttpPost" type="tns:WebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="login">
+      <http:operation location="/login" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <http:operation location="/getUserData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <http:operation location="/createUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <http:operation location="/editUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <http:operation location="/deleteUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getSubject">
+      <http:operation location="/getSubject" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubjects">
+      <http:operation location="/getSubjects" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubject">
+      <http:operation location="/createSubject" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="editSubject">
+      <http:operation location="/editSubject" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubject">
+      <http:operation location="/deleteSubject" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <http:operation location="/getUsers" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertStudent">
+      <http:operation location="/insertStudent" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentSubjects">
+      <http:operation location="/getStudentSubjects" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://localhost:52064/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://localhost:52064/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceHttpGet" binding="tns:WebServiceHttpGet">
+      <http:address location="http://localhost:52064/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceHttpPost" binding="tns:WebServiceHttpPost">
+      <http:address location="http://localhost:52064/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
