@@ -93,5 +93,72 @@ namespace SOAP
 
             return data;
         }
+
+        [WebMethod]
+        public void createUser(string name, string username, string pass, string type)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "INSERT INTO users (name,username,password,type) VALUES('" + name + "','" + username + "','" + pass + "' , '" + type + "'); ";
+            Console.WriteLine(query);
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+
+            SQLiteDataAdapter da = new SQLiteDataAdapter();
+            da.InsertCommand = comm;
+            da.InsertCommand.ExecuteNonQuery();
+
+            long id = conn.LastInsertRowId;
+
+        }
+
+        [WebMethod]
+        public void editUser(string name, string username, string password)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "SELECT * FROM users WHERE username = '" + username + "';";
+            Console.WriteLine(query);
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+            SQLiteDataReader reader = comm.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+            conn.Close();
+
+            if (dt.Rows.Count != 0)
+            {
+                long id = (long)dt.Rows[0][0];
+
+                query = "UPDATE 'personal-info' SET name = '" + name + "', username = '" + username + "', password = '" + password +  "' WHERE id = " + id + "; ";
+                Console.WriteLine(query);
+
+                conn.Open();
+                comm = new SQLiteCommand(query, conn);
+
+                SQLiteDataAdapter daPersonalInfo = new SQLiteDataAdapter();
+
+                daPersonalInfo.UpdateCommand = comm;
+                daPersonalInfo.UpdateCommand.ExecuteNonQuery();
+                conn.Close();
+            }
+        }
+
+        [WebMethod]
+        public void deleteUser(string username)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "DELETE FROM users WHERE username = '" + username + "'; ";
+            Console.WriteLine(query);
+
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+
+            SQLiteDataAdapter da = new SQLiteDataAdapter();
+            da.DeleteCommand = comm;
+            da.DeleteCommand.ExecuteNonQuery();
+        }
     }
 }
