@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebPage
+namespace WebPage.admin
 {
 
 
-    public partial class WebForm1
+    public partial class logout
     {
     }
 }

@@ -14,7 +14,7 @@ namespace WebPage
 {
     public partial class Login : System.Web.UI.Page
     {
-        localhost.WebService service = new localhost.WebService();
+        WebService service = new WebService();
         protected void Page_Load(object sender, EventArgs e)
         {
         }
@@ -22,30 +22,40 @@ namespace WebPage
         {
             String userName = TextBox1.Text;
             String password = TextBox2.Text;
-
+            System.Console.Write("hola");
             System.Diagnostics.Debug.WriteLine("Antes de peticion");
             var response = service.login(userName, password);
 
             
             bool responseState = (bool)response.ElementAt(0);
 
-            System.Diagnostics.Debug.WriteLine("Antes de if" + responseState);
-            string userType = (string)response.ElementAt(1);
+            System.Diagnostics.Debug.WriteLine("Respuesta: " + responseState);
+            
 
             System.Diagnostics.Debug.WriteLine("Antes de if");
             if (responseState)
             {
+                string userType = (string)response.ElementAt(1);
                 System.Diagnostics.Debug.WriteLine("Despues de if");
                 FormsAuthentication.SetAuthCookie(userName, true);
                 if (userType == "client")
                 {
-                    Response.Redirect("users/profile.aspx");
+                    TextBox1.Text = response.ElementAt(0).ToString()+", "+ response.ElementAt(1).ToString();
+                     Response.Redirect("~/users/profile.aspx");
                 }
                 else
                 {
-                    Response.Redirect("admin/dashboard.aspx");
+                    TextBox1.Text = response.ElementAt(0).ToString() + ", " + response.ElementAt(1).ToString();
+                     Response.Redirect("dashboard.aspx");
+                   // Response.Redirect("~/Login.aspx?ReturnPath=" + Server.UrlEncode(Request.Url.AbsoluteUri));
                 }
             }
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        
     }
 }

@@ -82,8 +82,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin\dashboard.aspx" />
-    <Content Include="admin\newreserve.aspx" />
+    <Content Include="dashboard.aspx" />
+    <Content Include="newreserve.aspx" />
     <Content Include="assets\css\dashboard.css" />
     <Content Include="assets\css\dashboard.rtl.css" />
     <Content Include="assets\css\landing-page.min.css" />
@@ -1694,13 +1694,13 @@
     <Content Include="CreateUser.aspx" />
     <Content Include="Global.asax" />
     <Content Include="login.aspx" />
-    <Content Include="admin\logout.aspx" />
-    <Content Include="admin\newuser.aspx" />
-    <Content Include="admin\registration.aspx" />
-    <Content Include="admin\subjects.aspx" />
-    <Content Include="admin\updatesubject.aspx" />
-    <Content Include="admin\updateuser.aspx" />
-    <Content Include="admin\users.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="newuser.aspx" />
+    <Content Include="registration.aspx" />
+    <Content Include="subjects.aspx" />
+    <Content Include="updatesubject.aspx" />
+    <Content Include="updateuser.aspx" />
+    <Content Include="users.aspx" />
     <Content Include="masterPage.Master" />
     <Content Include="assets\fonts\feather\feather-webfont.eot" />
     <Content Include="assets\fonts\feather\feather-webfont.ttf" />
@@ -1801,18 +1801,18 @@
     <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin\dashboard.aspx.cs">
+    <Compile Include="dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\dashboard.aspx.designer.cs">
+    <Compile Include="dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\newreserve.aspx.cs">
+    <Compile Include="newreserve.aspx.cs">
       <DependentUpon>newreserve.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\newreserve.aspx.designer.cs">
+    <Compile Include="newreserve.aspx.designer.cs">
       <DependentUpon>newreserve.aspx</DependentUpon>
     </Compile>
     <Compile Include="client.aspx.cs">
@@ -1846,53 +1846,53 @@
     <Compile Include="masterPage.Master.designer.cs">
       <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="admin\logout.aspx.cs">
+    <Compile Include="logout.aspx.cs">
       <DependentUpon>logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\logout.aspx.designer.cs">
+    <Compile Include="logout.aspx.designer.cs">
       <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\newuser.aspx.cs">
+    <Compile Include="newuser.aspx.cs">
       <DependentUpon>newuser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\newuser.aspx.designer.cs">
+    <Compile Include="newuser.aspx.designer.cs">
       <DependentUpon>newuser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\registration.aspx.cs">
+    <Compile Include="registration.aspx.cs">
       <DependentUpon>registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\registration.aspx.designer.cs">
+    <Compile Include="registration.aspx.designer.cs">
       <DependentUpon>registration.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\subjects.aspx.cs">
+    <Compile Include="subjects.aspx.cs">
       <DependentUpon>subjects.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\subjects.aspx.designer.cs">
+    <Compile Include="subjects.aspx.designer.cs">
       <DependentUpon>subjects.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\updatesubject.aspx.cs">
+    <Compile Include="updatesubject.aspx.cs">
       <DependentUpon>updatesubject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\updatesubject.aspx.designer.cs">
+    <Compile Include="updatesubject.aspx.designer.cs">
       <DependentUpon>updatesubject.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\updateuser.aspx.cs">
+    <Compile Include="updateuser.aspx.cs">
       <DependentUpon>updateuser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\updateuser.aspx.designer.cs">
+    <Compile Include="updateuser.aspx.designer.cs">
       <DependentUpon>updateuser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\users.aspx.cs">
+    <Compile Include="users.aspx.cs">
       <DependentUpon>users.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\users.aspx.designer.cs">
+    <Compile Include="users.aspx.designer.cs">
       <DependentUpon>users.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

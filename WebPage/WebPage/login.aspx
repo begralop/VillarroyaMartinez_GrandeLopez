@@ -79,7 +79,7 @@
                   <div class="form-group">
                     <label class="form-label">Username</label>
 					  <form id="form1" runat="server">
-					<asp:TextBox class="form-control" aria-describedby="emailHelp" placeholder="Enter email" ID="TextBox1" runat="server"></asp:TextBox>
+					<asp:TextBox class="form-control" aria-describedby="emailHelp" placeholder="Enter email" ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                   </div>
                   <div class="form-group">
                     <label class="form-label">
@@ -88,7 +88,7 @@
 					<asp:TextBox type="password" class="form-control" ID="TextBox2" runat="server" placeholder="Password"></asp:TextBox>
                   </div>
                   <div class="form-footer" >
-					<asp:Button class="btn btn-primary btn-block" ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click"/><br /><br />
+					<asp:Button class="btn btn-primary btn-block" ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click" PostBackUrl="~/admin/indice.aspx"/><br /><br />
                    </div>
 					</form>
                   </div>

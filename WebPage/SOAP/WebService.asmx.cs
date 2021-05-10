@@ -42,30 +42,30 @@ namespace SOAP
 
             conn.Close();
 
-            ArrayList data = new ArrayList();
-
+           
+            ArrayList datazo = new ArrayList();
             if (dt.Rows.Count != 0)
             {
-                data.Add(true);
-                string role = userName;
-                if (role.Contains("admin"))
-                {
-                    data.Add("admin");
-                }
-                else
-                {
-                    data.Add("student");
-                }
-                return data;
+                datazo.Add(true);
+                datazo.Add(dt.Rows[0][2]);
             }
             else
             {
-                data.Add(false);
-                data.Add("null");
+                datazo.Add(false);
             }
+            return datazo;
+            
+           
+            
+        }
+        [WebMethod]
+        public ArrayList logiin(string userName, string pass)
+        {
+            ArrayList data = new ArrayList();
+            data.Add(true);
+            data.Add("client");
             return data;
         }
-
         [WebMethod]
         public ArrayList getUserData(string userName)
         {
