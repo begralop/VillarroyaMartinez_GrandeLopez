@@ -7,11 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebPage
-{
 
 
-    public partial class dashboard
-    {
-    }
+public partial class  {
 }

@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="newreserve.aspx.cs" Inherits="WebPage.newreserve" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="newreserve.aspx.cs" %>
+<!-- Inherits="WebPage.newreserve" -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +17,9 @@
 </head>
 <body>
 
-    <!-- HEADER -->
+<!-- HEADER -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <img class="navbar-brand" src="luvehotellogo.png" alt="" width="110px" >
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,8 +38,45 @@
     </ul>
   </div>
 
-        <a class="btn btn-danger" href="login.aspx">Sign In</a>
-        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
+        <a class="btn btn-danger" href="index.aspx">Sign out</a>
+
+</nav>
+
+
+    <!-- FORM -->
+
+          <section style="align-content:center">
+        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+        
+            <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">User</label>
+    <input type="user" class="form-control" id="user_id">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Roomname</label>
+    <input type="roomname" class="form-control" id="romname_id">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Card id</label>
+    <input type="idcard" class="form-control" id="idcard_id">
+  </div>
+     <div class="form-group">
+    <label for="exampleFormControlInput1">Date</label>
+    <input type="date" class="form-control" id="date_id">
+  </div>
+  <div class="form-group">
+    <a class="btn btn-danger" href="login.aspx">Create reserve</a>
+  </div>
+</form>
+
+        </div>
+      </div> 
+    </div>
+  </section>
 
         <!-- Footer --> 
 

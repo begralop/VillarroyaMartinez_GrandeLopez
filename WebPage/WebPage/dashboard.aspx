@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs" Inherits="WebPage.dashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs"  %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,8 +37,58 @@
     </ul>
   </div>
 
-        <a class="btn btn-danger" href="login.aspx">Sign In</a>
-        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
+        <a class="btn btn-danger" href="index.aspx">Sign out</a>
+
+</nav>
+
+
+  <section style="text-align:center;padding:0px 0px 96px 0px">
+        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+          <div class="card mx-auto" style="width: 18rem;">
+              <img src="landing_image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:black">New user</h5>
+                <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="newuser.aspx" class="btn btn-primary">Add new user</a>
+               </div>
+             </div>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <div class="card mx-auto" style="width: 18rem;">
+              <img src="landing_image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:black">New reserve</h5>
+                <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="newreserve.aspx" class="btn btn-primary">Add new reserve</a>
+               </div>
+             </div>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <div class="card mx-auto" style="width: 18rem;">
+              <img src="landing_image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:black">Edit user</h5>
+                <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="edit_user.aspx" class="btn btn-primary">Edit existing user</a>
+               </div>
+             </div>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <div class="card mx-auto" style="width: 18rem;">
+              <img src="landing_image.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:black">Edit reserve</h5>
+                <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="edit_reserve.aspx" class="btn btn-primary">Edit existing reserve</a>
+               </div>
+             </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
         <!-- Footer --> 
 

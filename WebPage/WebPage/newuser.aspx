@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs" Inherits="WebPage.newuser" %>
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs" %>
+<!-- Inherits="WebPage.newuser" -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +19,7 @@
 
     <!-- HEADER -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <img class="navbar-brand" src="luvehotellogo.png" alt="" width="110px" >
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,8 +38,43 @@
     </ul>
   </div>
 
-        <a class="btn btn-danger" href="login.aspx">Sign In</a>
-        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
+        <a class="btn btn-danger" href="index.aspx">Sign out</a>
+
+</nav>
+
+
+    <!-- FORM -->
+
+          <section style="align-content:center">
+        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+        
+            <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">User</label>
+    <input type="user" class="form-control" id="user_id">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Username</label>
+    <input type="username" class="form-control" id="username_id">
+  </div>
+              <div class="form-group">
+    <label for="exampleFormControlInput1">Password</label>
+    <input type="password" class="form-control" id="password_id">
+  </div>
+  <div class="form-group">
+    <a class="btn btn-danger" href="login.aspx">Create user</a>
+  </div>
+</form>
+
+        </div>
+      </div> 
+    </div>
+  </section>
+
+
 
         <!-- Footer --> 
 
