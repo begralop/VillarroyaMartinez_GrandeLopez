@@ -10,7 +10,7 @@ using System.Web.UI.HtmlControls;
 using System.Net;
 using System.IO;
 
-namespace WebPage.student
+namespace WebPage.client
 {
     public partial class profile : System.Web.UI.Page
     {

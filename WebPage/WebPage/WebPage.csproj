@@ -1696,7 +1696,6 @@
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
     <Content Include="newuser.aspx" />
-    <Content Include="registration.aspx" />
     <Content Include="updateuser.aspx" />
     <Content Include="users.aspx" />
     <Content Include="masterPage.Master" />
@@ -1857,13 +1856,6 @@
     </Compile>
     <Compile Include="newuser.aspx.designer.cs">
       <DependentUpon>newuser.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="registration.aspx.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registration.aspx.designer.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="updateuser.aspx.cs">
       <DependentUpon>updateuser.aspx</DependentUpon>
