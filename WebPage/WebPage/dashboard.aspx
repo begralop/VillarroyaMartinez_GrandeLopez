@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs"  %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs" Inherits="WebPage.Login" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +72,7 @@
               <div class="card-body">
                 <h5 class="card-title" style="color:black">Edit user</h5>
                 <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="edit_user.aspx" class="btn btn-primary">Edit existing user</a>
+                <a href="updateuser.aspx" class="btn btn-primary">Edit existing user</a>
                </div>
              </div>
         </div>

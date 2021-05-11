@@ -11,7 +11,7 @@ namespace WebPage
 {
 
 
-    public partial class updateuser
+    public partial class Login
     {
     }
 }

@@ -7,52 +7,56 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
+namespace WebPage
+{
 
 
-public partial class  {
+    public partial class Login
+    {
 
-    /// <summary>
-    /// Control form1.
-    /// </summary>
-    /// <remarks>
-    /// Campo generado automáticamente.
-    /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    /// </remarks>
-protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        /// <summary>
+        /// Control form1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
-/// <summary>
-/// Control user_id.
-/// </summary>
-/// <remarks>
-/// Campo generado automáticamente.
-/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-/// </remarks>
-protected global::System.Web.UI.HtmlControls.HtmlInputText user_id;
+        /// <summary>
+        /// Control userid.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText userid;
 
-/// <summary>
-/// Control username_id.
-/// </summary>
-/// <remarks>
-/// Campo generado automáticamente.
-/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-/// </remarks>
-protected global::System.Web.UI.HtmlControls.HtmlInputText username_id;
+        /// <summary>
+        /// Control usernameid.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText usernameid;
 
-/// <summary>
-/// Control passwordTxt.
-/// </summary>
-/// <remarks>
-/// Campo generado automáticamente.
-/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-/// </remarks>
-protected global::System.Web.UI.HtmlControls.HtmlInputPassword passwordTxt;
+        /// <summary>
+        /// Control passsword.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword passsword;
 
-/// <summary>
-/// Control Button1.
-/// </summary>
-/// <remarks>
-/// Campo generado automáticamente.
-/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-/// </remarks>
-protected global::System.Web.UI.WebControls.Button Button1;
+        /// <summary>
+        /// Control Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
+    }
 }

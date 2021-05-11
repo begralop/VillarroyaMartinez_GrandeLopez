@@ -1691,12 +1691,9 @@
     <Content Include="assets\vendor\jquery\jquery.slim.min.js" />
     <Content Include="assets\vendor\simple-line-icons\css\simple-line-icons.css" />
     <Content Include="assets\vendor\simple-line-icons\fonts\Simple-Line-Icons.svg" />
-    <Content Include="client.aspx" />
     <Content Include="Global.asax" />
     <Content Include="login.aspx" />
-    <Content Include="logout.aspx" />
     <Content Include="newuser.aspx" />
-    <Content Include="registration.aspx" />
     <Content Include="updateuser.aspx" />
     <Content Include="users.aspx" />
     <Content Include="masterPage.Master" />
@@ -1787,8 +1784,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="recepcionist.aspx" />
-    <Content Include="users\logout.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="Web References\localhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
@@ -1820,13 +1815,6 @@
     <Compile Include="newreserve.aspx.designer.cs">
       <DependentUpon>newreserve.aspx</DependentUpon>
     </Compile>
-    <Compile Include="client.aspx.cs">
-      <DependentUpon>client.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="client.aspx.designer.cs">
-      <DependentUpon>client.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1844,26 +1832,12 @@
     <Compile Include="masterPage.Master.designer.cs">
       <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="logout.aspx.cs">
-      <DependentUpon>logout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="logout.aspx.designer.cs">
-      <DependentUpon>logout.aspx</DependentUpon>
-    </Compile>
     <Compile Include="newuser.aspx.cs">
       <DependentUpon>newuser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="newuser.aspx.designer.cs">
       <DependentUpon>newuser.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="registration.aspx.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registration.aspx.designer.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="updateuser.aspx.cs">
       <DependentUpon>updateuser.aspx</DependentUpon>
@@ -1892,20 +1866,6 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="recepcionist.aspx.cs">
-      <DependentUpon>recepcionist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="recepcionist.aspx.designer.cs">
-      <DependentUpon>recepcionist.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="users\logout.aspx.cs">
-      <DependentUpon>logout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="users\logout.aspx.designer.cs">
-      <DependentUpon>logout.aspx</DependentUpon>
-    </Compile>
     <Compile Include="profile.aspx.cs">
       <DependentUpon>profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1920,9 +1880,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin\Web.config" />
     <None Include="packages.config" />
-    <Content Include="users\Web.config" />
     <None Include="Web References\localhost\WebService.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

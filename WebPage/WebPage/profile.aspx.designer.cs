@@ -11,7 +11,7 @@ namespace WebPage
 {
 
 
-    public partial class profile
+    public partial class Login
     {
     }
 }

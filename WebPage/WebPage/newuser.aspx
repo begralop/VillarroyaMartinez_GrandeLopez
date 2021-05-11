@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs"  %>
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs"  Inherits="WebPage.Login"%>
 <!-- Inherits="WebPage.newuser" -->
 
 <!DOCTYPE html>
@@ -54,18 +54,18 @@
             <form id="form1" runat="server">
   <div class="form-group">
     <label for="exampleFormControlInput1">User</label>
-    <input type="text" id="user_id" name="userTxt" class="form-control" runat="server">
+    <input type="text" id="userid" name="userTxt" class="form-control" runat="server">
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Username</label>
-    <input type="text" id="username_id" name="usernameTxt" class="form-control" runat="server">
+    <input type="text" id="usernameid" name="usernameTxt" class="form-control" runat="server">
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Password</label>
-    <input type="password" class="form-control" id="passwordTxt" name="password_id" runat="server">
+    <input type="password" class="form-control" id="passsword" name="passwordid" runat="server">
   </div>
   <div class="form-group">
-     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" Text="Create user" />
+     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" OnClick= "onClick2" Text="Create user" />
   </div>
             </form>
 

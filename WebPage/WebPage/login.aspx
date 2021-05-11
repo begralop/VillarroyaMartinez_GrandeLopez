@@ -88,7 +88,7 @@
 					<asp:TextBox type="password" class="form-control" ID="TextBox2" runat="server" placeholder="Password"></asp:TextBox>
                   </div>
                   <div class="form-footer" >
-					<asp:Button class="btn btn-primary btn-block" ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click" PostBackUrl="~/admin/indice.aspx"/><br /><br />
+					<asp:Button class="btn btn-primary btn-block" ID="Button1" runat="server" Text="Log in" OnClick="Button1_Click"/>
                    </div>
 					</form>
                   </div>

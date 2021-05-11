@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterPage.Master" AutoEventWireup="true" CodeBehind="users.aspx.cs" Inherits="WebPage.admin.users" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="users.aspx.cs" Inherits="WebPage.admin.users" %>
+
         <div class="my-3 my-md-5">
           <div class="container">
             <div class="page-header">

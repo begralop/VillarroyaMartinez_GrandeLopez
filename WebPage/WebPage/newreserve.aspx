@@ -1,26 +1,46 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="newreserve.aspx.cs" %>
-<!-- Inherits="WebPage.newreserve" -->
-
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="newreserve.aspx.cs" Inherits="WebPage.Login" %>
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>New reserve</title>
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#4188c9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+    <script src="./assets/js/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '.'
+      });
+    </script>
+    <link href="assets/css/dashboard.css" rel="stylesheet" />
+    <script src="./assets/js/dashboard.js"></script>
+    <link href="assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+    <script src="./assets/plugins/charts-c3/plugin.js"></script>
+    <script src="./assets/plugins/input-mask/plugin.js"></script>
+     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="assets/css/landing-page.min.css" rel="stylesheet">
-</head>
+  </head>
 <body>
 
-<!-- HEADER -->
+    <!-- HEADER -->
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <img class="navbar-brand" src="luvehotellogo.png" alt="" width="110px" >
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <img class="navbar-brand" src="luvehotellogo.png" href="index.aspx" alt="" width="110px" href="#">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,47 +58,15 @@
     </ul>
   </div>
 
-        <a class="btn btn-danger" href="index.aspx">Sign out</a>
+        <a class="btn btn-danger" href="login.aspx">Sign In</a>
+        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
 
 </nav>
 
 
-    <!-- FORM -->
+ 
 
-          <section style="align-content:center">
-        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
-     <div class="container">
-      <div class="row">
-        <div class="col-xs-3 col-sm-3">
-        
-            <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">User</label>
-    <input type="user" class="form-control" id="user_id">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Roomname</label>
-    <input type="roomname" class="form-control" id="romname_id">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Card id</label>
-    <input type="idcard" class="form-control" id="idcard_id">
-  </div>
-     <div class="form-group">
-    <label for="exampleFormControlInput1">Date</label>
-    <input type="date" class="form-control" id="date_id">
-  </div>
-  <div class="form-group">
-    <a class="btn btn-danger" href="login.aspx">Create reserve</a>
-  </div>
-</form>
-
-        </div>
-      </div> 
-    </div>
-  </section>
-
-        <!-- Footer --> 
+      <!-- Footer --> 
 
   <footer class="footer bg-light text-center">
     <div class="container">

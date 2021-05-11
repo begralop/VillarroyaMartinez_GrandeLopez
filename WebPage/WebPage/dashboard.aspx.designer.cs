@@ -7,7 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
+namespace WebPage
+{
 
 
-public partial class  {
+    public partial class Login
+    {
+    }
 }
