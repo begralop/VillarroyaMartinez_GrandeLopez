@@ -6,24 +6,31 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebPage.admin
+namespace WebPage
 {
     public partial class newuser : System.Web.UI.Page
     {
+
         localhost.WebService service = new localhost.WebService();
 
-        protected void Button1_Click(object sender, EventArgs e)
+        void Page_Load(Object sender, EventArgs e)
         {
-            string userName = UsernameTextBox.Text;
-            string pass = PasswordTextBox.Text;
-            string name = NameTextBox.Text;
-            string surname = SurnameTextBox.Text;
-            string function = FunctionDropdown.SelectedValue.ToString();
 
-            service.createUser(userName, pass, name, surname);
+            Button1.Click += new EventHandler(this.createuser_click);
 
-            Response.Redirect("/admin/users.aspx");
         }
-    
+
+        void createuser_click(Object sender, EventArgs e)
+        {
+            string user = user_id.Value.ToString();
+            string username = username_id.Value.ToString();
+            string password = password_id.Value.ToString();
+
+            service.createUser(username, password, user);
+
+            Response.Redirect("/admin/index.aspx");
+
+        }
+
     }
 }

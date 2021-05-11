@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs" %>
+﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="newuser.aspx.cs"  %>
 <!-- Inherits="WebPage.newuser" -->
 
 <!DOCTYPE html>
@@ -51,30 +51,28 @@
       <div class="row">
         <div class="col-xs-3 col-sm-3">
         
-            <form>
+            <form id="form1" runat="server">
   <div class="form-group">
     <label for="exampleFormControlInput1">User</label>
-    <input type="user" class="form-control" id="user_id">
+    <input type="text" id="user_id" name="userTxt" class="form-control" runat="server">
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Username</label>
-    <input type="username" class="form-control" id="username_id">
-  </div>
-              <div class="form-group">
-    <label for="exampleFormControlInput1">Password</label>
-    <input type="password" class="form-control" id="password_id">
+    <input type="text" id="username_id" name="usernameTxt" class="form-control" runat="server">
   </div>
   <div class="form-group">
-    <a class="btn btn-danger" href="login.aspx">Create user</a>
+    <label for="exampleFormControlInput1">Password</label>
+    <input type="password" class="form-control" id="passwordTxt" name="password_id" runat="server">
   </div>
-</form>
+  <div class="form-group">
+     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" Text="Create user" />
+  </div>
+            </form>
 
         </div>
       </div> 
     </div>
   </section>
-
-
 
         <!-- Footer --> 
 
@@ -100,7 +98,5 @@
       </div>
     </div>
   </footer>
-
-</nav>
     </body>
 </html>
