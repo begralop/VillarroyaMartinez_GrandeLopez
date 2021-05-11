@@ -13,5 +13,18 @@ namespace WebPage
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
+            string user = Request["userid"];
+            string username = Request["roomnameid"];
+            string password = Request["idcard"];
+            string date = Request["dateid"];
+
+            //service.(username, password, user, "client");
+
+            Response.Redirect("index.aspx");
+        }
     }
 }

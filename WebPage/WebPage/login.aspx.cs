@@ -41,7 +41,7 @@ namespace WebPage
                 if (userType == "client")
                 {
                     TextBox1.Text = response.ElementAt(0).ToString()+", "+ response.ElementAt(1).ToString();
-                  //  Response.Redirect("index.aspx");
+                    Response.Redirect("profile.aspx");
                 }
                 else
                 {

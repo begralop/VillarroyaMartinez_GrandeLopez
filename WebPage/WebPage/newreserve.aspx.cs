@@ -13,11 +13,15 @@ namespace WebPage.admin
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string title = NameTextbox.Text;
-            int idReserve = Convert.ToInt32(idTextBox.Text);
+            Response.Redirect("index.aspx");
+            string user = Request["userid"];
+            string username = Request["roomnameid"];
+            string password = Request["idcard"];
+            string date = Request["dateid"];
 
-            service.createSubject(title,idReserve);
-            Response.Redirect("/admin/subjects.aspx");
+            //service.(username, password, user, "client");
+
+            Response.Redirect("index.aspx");
         }
     }
 }

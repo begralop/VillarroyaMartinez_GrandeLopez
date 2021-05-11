@@ -22,13 +22,13 @@ namespace WebPage
         protected void onClick2(object sender, EventArgs e)
         {
             Response.Redirect("index.aspx");
-            /*tring user = Request["userid"];
+            string user = Request["userid"];
              string username = Request["usernameid"];
              string password = Request["password"];
 
              service.createUser(username, password, user, "client");
 
-             Response.Redirect("/admin/index.aspx");*/
+             Response.Redirect("index.aspx");
 
         }
 

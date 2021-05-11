@@ -47,24 +47,47 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.aspx">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Our services</a>
+        <a class="nav-link" href="index.aspx">Our services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="index.aspx">Contact</a>
       </li>
     </ul>
   </div>
 
         <a class="btn btn-danger" href="login.aspx">Sign In</a>
-        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
 
 </nav>
 
 
  
+    <!-- FORM -->
+
+          <section style="align-content:center">
+        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+        
+            <form id="form1"  runat="server">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Roomname:</label>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Date:</label>
+   
+  </div>
+  
+            </form>
+
+        </div>
+      </div> 
+    </div>
+  </section>
 
       <!-- Footer --> 
 

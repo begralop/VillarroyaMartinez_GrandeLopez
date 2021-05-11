@@ -19,31 +19,7 @@ namespace WebPage.admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                string userNameParameter = Request.QueryString["username"];
-                if (userNameParameter != null)
-                {
-                    var response = service.getUserData(userNameParameter);
-
-                    string userName = (string)response.ElementAt(0);
-                    string name = (string)response.ElementAt(1);
-                    string surname = (string)response.ElementAt(2);
-
-                    UsernameTextBox.Text = userName;
-                    NameTextBox.Text = name;
-                    SurnameTextBox.Text = surname;
-                }
-                else
-                {
-                    Response.Redirect("/admin/users.aspx");
-                }
-            }
-            else
-            {
-                string userName = Request.QueryString["username"];
-                UsernameTextBox.Text = userName;
-            }
+           
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -74,12 +50,16 @@ namespace WebPage.admin
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            string userName = Request.QueryString["username"];
+         
+                string user = Request["userid"];
+                string username = Request["usernameid"];
+                string password = Request["password"];
 
-            string name = NameTextBox.Text;
-            string surname = SurnameTextBox.Text;
+                service.editUser(username, password, user);
 
-            service.editUser(userName, name, surname);
+                Response.Redirect("index.aspx");
+
+          
         }
 
         protected void Button3_Click(object sender, EventArgs e)

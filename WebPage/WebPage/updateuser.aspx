@@ -15,7 +15,7 @@
     <meta name="MobileOptimized" content="320">
     <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-    <title>Profile</title>
+    <title>Edit user</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
     <script src="./assets/js/require.min.js"></script>
@@ -47,23 +47,55 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.aspx">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Our services</a>
+        <a class="nav-link" href="index.aspx">Our services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="index.aspx">Contact</a>
       </li>
     </ul>
   </div>
 
-        <a class="btn btn-danger" href="login.aspx">Sign In</a>
-        <a class="btn btn-outline-danger" style="margin-left: 8px" href="CreateUser.aspx">Sign Up</a>
+        <a class="btn btn-danger" href="index.aspx">Sign out</a>
+       
 
 </nav>
 
+      <!-- FORM -->
 
+          <section style="align-content:center">
+        <h1 style="margin: 64px 0px 64px 0px">Some example txt</h1>
+     <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+        
+            <form id="form1"  runat="server">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">User</label>
+    <input type="text" id="userid" name="userTxt" class="form-control" runat="server">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Username</label>
+    <input type="text" id="roomnameid" name="roomname" class="form-control" runat="server">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Password</label>
+    <input type="password" class="form-control" id="idcard" name="idcar" runat="server">
+  </div>
+ <div class="form-group">
+     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" Text="Edit user" />
+  </div>
+   <div class="form-group">
+     <asp:Button CssClass="btn btn-danger"  ID="Button2" runat="server" Text="Delete user" />
+  </div>
+            </form>
+
+        </div>
+      </div> 
+    </div>
+  </section>
  
 
       <!-- Footer --> 

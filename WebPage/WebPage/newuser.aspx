@@ -27,13 +27,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.aspx">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Our services</a>
+        <a class="nav-link" href="index.aspx">Our services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="index.aspx">Contact</a>
       </li>
     </ul>
   </div>
@@ -65,7 +65,7 @@
     <input type="password" class="form-control" id="passsword" name="passwordid" runat="server">
   </div>
   <div class="form-group">
-     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" OnClick= "onClick2" Text="Create user" />
+     <asp:Button CssClass="btn btn-danger"  ID="Button1" runat="server" Text="Create user" />
   </div>
             </form>
 

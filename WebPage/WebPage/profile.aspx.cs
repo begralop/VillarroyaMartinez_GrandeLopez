@@ -18,20 +18,7 @@ namespace WebPage.client
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            System.Diagnostics.Debug.WriteLine(User.Identity.Name);
-            if (User.Identity.Name != null)
-            {
-                var response = service.getUserData(User.Identity.Name);
-
-                string userName = (string)response.ElementAt(0);
-                string name = (string)response.ElementAt(1);
-                string surname = (string)response.ElementAt(2);
-
-                UsernameTextBox.Text = userName;
-                NameTextBox.Text = name;
-                SurnameTextBox.Text = surname;
-
-            }
+          
         }
 
         protected void Button1_Click(object sender, EventArgs e)
