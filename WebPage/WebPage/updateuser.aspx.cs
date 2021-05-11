@@ -88,5 +88,24 @@ namespace WebPage.admin
 
             service.deleteUser(userName);
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            string strContents = null;
+
+            HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create("http://localhost:52064/WebService.asmx/getUserReserves");
+            req.UserAgent = "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)";
+            using (var resp = req.GetResponse())
+            {
+                strContents = new StreamReader(resp.GetResponseStream()).ReadToEnd();
+            }
+
+            string attachment = "attachment; filename=profile.xml";
+            Response.ClearContent();
+            Response.ContentType = "application/xml";
+            Response.AddHeader("content-disposition", attachment);
+            Response.Write(strContents);
+            Response.End();
+        }
     }
 }

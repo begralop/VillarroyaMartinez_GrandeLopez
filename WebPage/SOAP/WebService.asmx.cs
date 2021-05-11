@@ -198,5 +198,54 @@ namespace SOAP
 
             return data;
         }
+
+        [WebMethod]
+        public void editReserve(string idReserve, string user, string roomname, int idCard, string date)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "SELECT * FROM reserve WHERE id = '" + idReserve + "';";
+            Console.WriteLine(query);
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+            SQLiteDataReader reader = comm.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+
+            conn.Close();
+
+            if (dt.Rows.Count != 0)
+            {
+                long id = (long)dt.Rows[0][0];
+
+                query = "UPDATE 'reserve' SET user = '" + user + "', roomname = '" + roomname + "', idCard = '" + idCard + "', date = '" + date + "' WHERE id = " + idReserve + "; ";
+                Console.WriteLine(query);
+
+                conn.Open();
+                comm = new SQLiteCommand(query, conn);
+
+                SQLiteDataAdapter daPersonalInfo = new SQLiteDataAdapter();
+
+                daPersonalInfo.UpdateCommand = comm;
+                daPersonalInfo.UpdateCommand.ExecuteNonQuery();
+                conn.Close();
+            }
+        }
+
+        [WebMethod]
+        public void deleteReserve(int id)
+        {
+            SQLiteConnection conn = createConnection();
+            conn.Open();
+
+            String query = "DELETE FROM reserve WHERE id = '" + id + "'; ";
+            Console.WriteLine(query);
+
+            SQLiteCommand comm = new SQLiteCommand(query, conn);
+
+            SQLiteDataAdapter da = new SQLiteDataAdapter();
+            da.DeleteCommand = comm;
+            da.DeleteCommand.ExecuteNonQuery();
+        }
     }
 }
